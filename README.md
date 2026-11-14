@@ -213,5 +213,5 @@ python -m pytest -q
 <div align="center">
 
 Сделано с ❤️ для тех, кто ищет работу осознанно.
-
+by LightLands
 </div>
