@@ -1,0 +1,8 @@
+aiogram>=3.4,<4
+aiohttp>=3.9
+pydantic-settings>=2.2
+APScheduler>=3.10,<4        # именно 3.x: в 4.x другой API
+openai>=1.30                # клиент для любого OpenAI-совместимого API (OpenRouter и др.)
+beautifulsoup4>=4.12
+tzdata; sys_platform == "win32"
+# aiohttp-socks>=0.8        # раскомментируйте, если PROXY_URL начинается с socks5://

@@ -1,0 +1,56 @@
+2026-11-14 21:42:58 | INFO     | career_assistant.repositories.db | Applying schema v1
+2026-11-14 21:42:58 | INFO     | career_assistant.repositories.db | Applying schema v2 (источники вакансий)
+2026-11-14 21:42:58 | INFO     | career_assistant.repositories.db | DB schema ready (v2) at data/career_bot.db
+2026-11-14 21:42:58 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-14 21:42:58 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-14 21:42:58 | INFO     | apscheduler.scheduler | Added job "notify_due_subscriptions" to job store "default"
+2026-11-14 21:42:58 | INFO     | apscheduler.scheduler | Added job "maintenance" to job store "default"
+2026-11-14 21:42:58 | INFO     | apscheduler.scheduler | Scheduler started
+2026-11-14 21:42:58 | INFO     | career_assistant | Бот запущен. Источники: hh, remoteok
+2026-11-14 21:42:58 | INFO     | aiogram.dispatcher | Start polling
+2026-11-14 21:42:59 | INFO     | aiogram.dispatcher | Run polling for bot @careerass_bot id=8006904977 - 'Career Assistant'
+2026-11-14 21:43:06 | INFO     | aiogram.event | Update id=135760517 is handled. Duration 348 ms by bot id=8006904977
+2026-11-14 21:43:08 | INFO     | aiogram.event | Update id=135760518 is handled. Duration 128 ms by bot id=8006904977
+2026-11-14 21:43:11 | INFO     | aiogram.event | Update id=135760519 is handled. Duration 295 ms by bot id=8006904977
+2026-11-14 21:43:14 | INFO     | aiogram.event | Update id=135760520 is handled. Duration 102 ms by bot id=8006904977
+2026-11-14 21:43:15 | INFO     | aiogram.event | Update id=135760521 is handled. Duration 93 ms by bot id=8006904977
+2026-11-14 21:43:16 | INFO     | aiogram.event | Update id=135760522 is handled. Duration 630 ms by bot id=8006904977
+2026-11-14 21:43:21 | INFO     | aiogram.event | Update id=135760523 is handled. Duration 121 ms by bot id=8006904977
+2026-11-14 21:43:26 | INFO     | aiogram.event | Update id=135760524 is handled. Duration 94 ms by bot id=8006904977
+2026-11-14 21:43:32 | WARNING  | career_assistant.bot.routers.search | Поиск не удался: hh.ru ответил HTTP 400: {"description":"Bad User-Agent header","errors":[{"value":"blacklisted","type":"bad_user_agent"}],"request_id":"1794681880394858a2b8095bc4025008"}
+2026-11-14 21:43:32 | INFO     | aiogram.event | Update id=135760525 is handled. Duration 1659 ms by bot id=8006904977
+2026-11-14 21:43:36 | INFO     | aiogram.event | Update id=135760526 is handled. Duration 104 ms by bot id=8006904977
+2026-11-14 21:43:37 | INFO     | aiogram.event | Update id=135760527 is handled. Duration 102 ms by bot id=8006904977
+2026-11-14 21:43:38 | INFO     | aiogram.event | Update id=135760528 is handled. Duration 286 ms by bot id=8006904977
+2026-11-14 21:43:42 | INFO     | aiogram.event | Update id=135760529 is handled. Duration 93 ms by bot id=8006904977
+2026-11-14 21:44:00 | INFO     | aiogram.event | Update id=135760530 is handled. Duration 153 ms by bot id=8006904977
+2026-11-14 21:44:16 | INFO     | aiogram.event | Update id=135760531 is handled. Duration 1037 ms by bot id=8006904977
+2026-11-14 21:44:19 | INFO     | aiogram.event | Update id=135760532 is handled. Duration 118 ms by bot id=8006904977
+2026-11-14 21:44:25 | INFO     | aiogram.event | Update id=135760533 is handled. Duration 95 ms by bot id=8006904977
+2026-11-14 21:44:28 | INFO     | aiogram.event | Update id=135760534 is handled. Duration 135 ms by bot id=8006904977
+2026-11-14 21:44:29 | INFO     | aiogram.event | Update id=135760535 is handled. Duration 102 ms by bot id=8006904977
+2026-11-14 21:44:36 | INFO     | aiogram.event | Update id=135760536 is handled. Duration 102 ms by bot id=8006904977
+2026-11-14 21:44:39 | INFO     | aiogram.event | Update id=135760537 is handled. Duration 101 ms by bot id=8006904977
+2026-11-14 21:44:41 | INFO     | aiogram.event | Update id=135760538 is handled. Duration 201 ms by bot id=8006904977
+2026-11-14 22:00:00 | INFO     | apscheduler.executors.default | Running job "notify_due_subscriptions (trigger: cron[minute='0'], next run at: 2026-11-14 23:00:00 MSK)" (scheduled at 2026-11-14 22:00:00+03:00)
+2026-11-14 22:00:00 | INFO     | career_assistant.scheduler | Подписки на 22:00: нет
+2026-11-14 22:00:00 | INFO     | apscheduler.executors.default | Job "notify_due_subscriptions (trigger: cron[minute='0'], next run at: 2026-11-14 23:00:00 MSK)" executed successfully
+2026-11-14 22:30:12 | INFO     | aiogram.event | Update id=135760539 is handled. Duration 189 ms by bot id=8006904977
+2026-11-14 22:30:16 | INFO     | aiogram.event | Update id=135760540 is handled. Duration 177 ms by bot id=8006904977
+2026-11-14 22:30:18 | INFO     | aiogram.event | Update id=135760541 is handled. Duration 416 ms by bot id=8006904977
+2026-11-14 22:30:20 | INFO     | aiogram.event | Update id=135760542 is handled. Duration 227 ms by bot id=8006904977
+2026-11-14 22:30:38 | INFO     | aiogram.event | Update id=135760543 is handled. Duration 359 ms by bot id=8006904977
+2026-11-14 22:30:40 | INFO     | aiogram.event | Update id=135760544 is handled. Duration 308 ms by bot id=8006904977
+2026-11-14 22:30:42 | INFO     | aiogram.event | Update id=135760545 is handled. Duration 346 ms by bot id=8006904977
+2026-11-14 22:30:53 | INFO     | aiogram.event | Update id=135760546 is handled. Duration 209 ms by bot id=8006904977
+2026-11-14 22:31:01 | INFO     | aiogram.event | Update id=135760547 is handled. Duration 178 ms by bot id=8006904977
+2026-11-14 22:31:07 | INFO     | aiogram.event | Update id=135760548 is handled. Duration 310 ms by bot id=8006904977
+2026-11-14 22:31:09 | INFO     | aiogram.event | Update id=135760549 is handled. Duration 280 ms by bot id=8006904977
+2026-11-14 22:31:14 | INFO     | aiogram.event | Update id=135760550 is handled. Duration 116 ms by bot id=8006904977
+2026-11-14 22:31:21 | INFO     | aiogram.event | Update id=135760551 is handled. Duration 106 ms by bot id=8006904977
+2026-11-14 22:31:24 | INFO     | aiogram.event | Update id=135760552 is handled. Duration 162 ms by bot id=8006904977
+2026-11-14 22:31:30 | INFO     | aiogram.event | Update id=135760553 is handled. Duration 118 ms by bot id=8006904977
+2026-11-14 23:00:00 | INFO     | apscheduler.executors.default | Running job "notify_due_subscriptions (trigger: cron[minute='0'], next run at: 2026-11-15 00:00:00 MSK)" (scheduled at 2026-11-14 23:00:00+03:00)
+2026-11-14 23:00:00 | INFO     | career_assistant.scheduler | Подписки на 23:00: нет
+2026-11-14 23:00:00 | INFO     | apscheduler.executors.default | Job "notify_due_subscriptions (trigger: cron[minute='0'], next run at: 2026-11-15 00:00:00 MSK)" executed successfully
+2026-11-14 23:03:18 | INFO     | career_assistant.repositories.db | DB schema ready (v2) at data/career_bot.db
